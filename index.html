@@ -74,7 +74,6 @@
 </head>
 <body class="bg-white text-stone-800">
     
-    <!-- Navbar -->
     <nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#hero" class="text-2xl font-bold serif text-gradient">Sam Kras</a>
@@ -98,7 +97,6 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section id="hero" class="relative h-screen flex items-center justify-center overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-br from-stone-900 via-stone-800 to-amber-900"></div>
         <div class="absolute inset-0 bg-black/40"></div>
@@ -111,14 +109,12 @@
         </div>
     </section>
 
-    <!-- Portfolio Section -->
     <section id="portfolio" class="py-20 bg-gray-50">
         <div class="container mx-auto px-6">
             <h2 class="text-5xl font-bold serif text-center mb-4">Featured Films</h2>
             <p class="text-center text-gray-600 mb-12">Explore our latest wedding cinematography</p>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Portfolio Items -->
                 <div class="portfolio-item rounded-lg overflow-hidden shadow-lg" onclick="openVideo('j-i90sZ-PhM')">
                     <img src="https://github.com/SamKras/Wedding-website/blob/main/Dina%20and%20Shein.png?raw=true" alt="Dina & Shein" class="w-full h-64 object-cover">
                     <div class="p-6 bg-white">
@@ -170,7 +166,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="py-20 bg-white">
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -187,20 +182,20 @@
                     </p>
                 </div>
                 <div class="relative">
-                    <div class="aspect-square bg-gradient-to-br from-amber-600 to-amber-800 rounded-lg shadow-2xl"></div>
+                    <img src="477319052_565477909856619_5447899648582230528_n.jpg" 
+                         alt="Sam Kras" 
+                         class="w-full aspect-square object-cover rounded-lg shadow-2xl">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
     <section id="services" class="py-20 bg-gray-50">
         <div class="container mx-auto px-6">
             <h2 class="text-5xl font-bold serif text-center mb-4">Our Packages</h2>
             <p class="text-center text-gray-600 mb-12">Choose the perfect package for your wedding day</p>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Light Package -->
                 <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition">
                     <div class="text-amber-600 mb-4">
                         <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -216,7 +211,6 @@
                     </a>
                 </div>
 
-                <!-- Optimal Production -->
                 <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition border-4 border-amber-600 relative">
                     <div class="absolute top-0 right-0 bg-amber-600 text-white px-4 py-1 text-sm font-bold rounded-bl-lg">
                         POPULAR
@@ -234,7 +228,6 @@
                     </a>
                 </div>
 
-                <!-- Max / VIP Experience -->
                 <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition">
                     <div class="text-amber-600 mb-4">
                         <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -252,7 +245,6 @@
         </div>
     </section>
 
-    <!-- Booking Form Section -->
     <section id="contact" class="py-20 bg-white">
         <div class="container mx-auto px-6 max-w-2xl">
             <h2 class="text-5xl font-bold serif text-center mb-4">Book Your Date</h2>
@@ -313,7 +305,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-stone-900 text-white py-12">
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -342,7 +333,6 @@
         </div>
     </footer>
 
-    <!-- Video Modal -->
     <div id="videoModal" class="modal">
         <div class="modal-content">
             <span class="close-modal" onclick="closeVideo()">&times;</span>
@@ -350,7 +340,6 @@
         </div>
     </div>
 
-    <!-- Floating CTA Button -->
     <a href="#contact" class="fixed bottom-8 right-8 z-40 bg-amber-600 text-white px-6 py-3 rounded-full shadow-2xl font-bold uppercase tracking-widest text-xs hover:bg-amber-700 transition-all transform hover:scale-110 active:scale-95 flex items-center space-x-2">
         <span>Check Availability</span>
     </a>
